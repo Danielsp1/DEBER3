@@ -1,5 +1,5 @@
 # DEBER3
-##Cargar y corregir datos
+#Cargar y corregir datos
 
 Carga datos de imágenes de moda, los procesa para el entrenamiento y las pruebas de un modelo de aprendizaje automático, y los prepara en un formato adecuado para ser utilizado por el modelo, normalizando los valores de píxeles y remodelando las matrices de píxeles.
 
