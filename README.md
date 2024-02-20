@@ -18,6 +18,7 @@ Convierte estas probabilidades en etiquetas de clase predichas (y_test_labels_pr
 Calcula la matriz de confusión entre las etiquetas reales de las imágenes de prueba (test_labels) y las etiquetas predichas (y_test_labels_pred) utilizando la función confusion_matrix de scikit-learn.
 Visualiza la matriz de confusión utilizando matplotlib y seaborn, mostrando los valores reales en el eje y y las predicciones en el eje x. Los valores en la matriz muestran la frecuencia con la que se predicen las diferentes clases en comparación con las clases reales.
 ![image](https://github.com/Danielsp1/DEBER3/assets/157714894/7be6d698-f9c3-4244-9942-4ca2e8001082)
+
 #Descripcion de matriz de confusión
 Diagonal Principal: Los números en la diagonal principal (de arriba a la izquierda a abajo a la derecha) representan el número de predicciones correctas para cada clase. Por ejemplo, el modelo predijo correctamente la clase 0 (que podría ser, por ejemplo, camisetas) 893 veces.
 Fuera de la Diagonal Principal: Cualquier número fuera de la diagonal principal indica el número de veces que una clase fue mal clasificada como otra. Por ejemplo, los elementos que son realmente de la clase 0 fueron incorrectamente clasificados como clase 2, 25 veces.
