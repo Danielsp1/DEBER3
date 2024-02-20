@@ -2,6 +2,7 @@
 #Cargar y corregir datos
 
 Carga datos de imágenes de moda, los procesa para el entrenamiento y las pruebas de un modelo de aprendizaje automático, y los prepara en un formato adecuado para ser utilizado por el modelo, normalizando los valores de píxeles y remodelando las matrices de píxeles.
+
 #Construccion del modelo
 Convolucional: Esta capa convolucional tiene 32 filtros de tamaño 3x3. Utiliza la función de activación ReLU (Rectified Linear Unit). La capa espera una entrada de imágenes en formato (28, 28, 1), que es el tamaño de las imágenes de entrada para este modelo.
 Capa MaxPooling2D (Agrupación Máxima): Después de cada capa de convolución, se utiliza una capa de agrupación máxima para reducir el tamaño espacial de la representación, lo que ayuda a reducir el número de parámetros y la computación en la red, y también a hacer que el modelo sea más robusto.
